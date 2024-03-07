@@ -5,7 +5,7 @@
 """""
 from flask import Flask, render_template, request
 from classes.Person import Person
-
+x = 3
 app = Flask(__name__)
 path = 'data/'
 Person.read(path)
